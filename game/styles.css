@@ -52,7 +52,7 @@ body{
 
 #newgame:hover {
     background-color: gray;
-    transition: all 0.3s ease-in-out;
+    /* transition: all 0.3s ease-in; */
   }
 #reset:hover {
     background-color: gray;
@@ -73,7 +73,7 @@ body{
     background-color: black;
     color: beige;
     padding: 0.5rem 1rem;
-    transition: all 0.7s ease-in-out;
+    /* transition: all 0.7s ease-in; */
     border: none;
 }
 

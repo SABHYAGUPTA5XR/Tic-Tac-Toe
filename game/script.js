@@ -26,6 +26,8 @@ reset.addEventListener("click", () => {
 })
 
 newgame.addEventListener("click", () => {
+    msgNewgame.classList.add('hide');
+    msg.innerText = ``;
     boxes.forEach((box) => {
         box.innerText = '';
         count = 0;
@@ -33,7 +35,6 @@ newgame.addEventListener("click", () => {
     }
     )
     heading.classList.remove('highlight');
-    msgNewgame.classList.add('hide');
 })
 
 const disablebtns = () => {
