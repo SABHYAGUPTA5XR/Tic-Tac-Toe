@@ -22,6 +22,7 @@ reset.addEventListener("click", () => {
         count = 0;
     })
     heading.classList.remove('highlight');
+    heading.innerText = 'TIC TAC TOE';
 })
 
 newgame.addEventListener("click", () => {
